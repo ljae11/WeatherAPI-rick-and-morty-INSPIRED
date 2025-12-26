@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rick & Morty Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="weather-card">
+        <h1>🌌 Rick & Morty Weather</h1>
+        <p class="subtitle">Multiverse Forecast</p>
+
+        <input type="text" id="cityInput" placeholder="Enter a planet (city)">
+        <button id="searchBtn">Scan Dimension</button>
+
+ <div id="loader" class="loader" style="display:none;"></div>
+ 
+       
+    <div id="forecast" class="forecast"></div>
+
+    <div id="result">
+        <h2 id="city"></h2>
+       
+   <div class="weather-box" id="temp">🌡 Temp: -- °C</div>
+    <div class="weather-box" id="feels">🥵 Feels like: -- °C</div>
+    <div class="weather-box" id="desc">☁ Weather: --</div>
+    <div class="weather-box" id="humidity">💧 Humidity: --%</div>
+    <div class="weather-box" id="wind">🌬 Wind: -- m/s</div>
+    <div class="weather-box" id="pressure">🧭 Pressure: -- hPa</div>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
